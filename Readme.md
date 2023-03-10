@@ -27,7 +27,7 @@ Run `ng serve --open` to execute the app via a platform of your choice. To use t
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 ## Application on WebBrowser
-![ANGULAR](https://user-images.githubusercontent.com/112770168/224370039-9e77a626-70e7-43e5-9d21-6fcc00725dca.PNG)
+![third](https://user-images.githubusercontent.com/112770168/224373658-f452d331-25a8-4c68-b620-cad16b4e3729.PNG)
 ## login page
 ![image](https://user-images.githubusercontent.com/112770168/224371762-0d68db4f-0f9a-4e51-8e93-399b740ce9db.png)
 ## Homepage 
