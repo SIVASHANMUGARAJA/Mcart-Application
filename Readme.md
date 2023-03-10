@@ -1,29 +1,17 @@
 ## MCart Application
 
 This project was generated with [Angular CLI](https://angular.io/cli) version 13.1.4.
-
 ## Development server
-
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
 ## Code scaffolding
-
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-![one](https://user-images.githubusercontent.com/112770168/224374459-386e4725-11a6-4143-bd73-525197cfb15f.PNG)
 ## Build
-
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
 ## Compiling the Application
-
 Run `ng serve` to  compile the application [Mcart execution]().
-
 ## Executing the Application
-
 Run `ng serve --open` to execute the app via a platform of your choice. To use this command, you need to first add a package that implements all the sources of the application.
-
 ## Further help
-
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 ## Application on WebBrowser
 ![ANGULAR](https://user-images.githubusercontent.com/112770168/224373972-254fa755-513a-427a-a9c7-209cef3a2be8.PNG)
@@ -32,5 +20,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Homepage 
 ![third](https://user-images.githubusercontent.com/112770168/224373658-f452d331-25a8-4c68-b620-cad16b4e3729.PNG)
 ## Products appeared on the Application
-![image](https://user-images.githubusercontent.com/112770168/224372559-d26a8570-bee3-4cbb-b2a4-3e8bf68e0896.png)
-
+![four](https://user-images.githubusercontent.com/112770168/224375851-e2b6c6a3-244e-4161-a9b1-cdc40f5f2ee6.PNG)
