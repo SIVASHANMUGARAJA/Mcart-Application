@@ -26,5 +26,4 @@ Run `ng serve --open` to execute the app via a platform of your choice. To use t
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 ## MCart Application Image
-
 ![ANGULAR](https://user-images.githubusercontent.com/112770168/224370039-9e77a626-70e7-43e5-9d21-6fcc00725dca.PNG)
