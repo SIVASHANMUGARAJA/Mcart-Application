@@ -9,6 +9,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+![image](https://user-images.githubusercontent.com/112770168/224372698-5c8a4614-3c26-45ec-933d-113c3fc79109.png)
 
 ## Build
 
@@ -25,5 +26,12 @@ Run `ng serve --open` to execute the app via a platform of your choice. To use t
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-## MCart Application Image
+## Application on WebBrowser
 ![ANGULAR](https://user-images.githubusercontent.com/112770168/224370039-9e77a626-70e7-43e5-9d21-6fcc00725dca.PNG)
+## login page
+![image](https://user-images.githubusercontent.com/112770168/224371762-0d68db4f-0f9a-4e51-8e93-399b740ce9db.png)
+## Homepage 
+![image](https://user-images.githubusercontent.com/112770168/224372228-55c850b5-4ff9-418c-b685-9a86b8033d6d.png)
+## Products appeared on the Application
+![image](https://user-images.githubusercontent.com/112770168/224372559-d26a8570-bee3-4cbb-b2a4-3e8bf68e0896.png)
+
