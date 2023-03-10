@@ -19,5 +19,5 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ![second](https://user-images.githubusercontent.com/112770168/224374098-40177ae6-b45a-4ac2-8131-091a278439aa.PNG)
 ## Homepage 
 ![third](https://user-images.githubusercontent.com/112770168/224373658-f452d331-25a8-4c68-b620-cad16b4e3729.PNG)
-## Products appeared on the Application
+## Products to be shown!
 ![four](https://user-images.githubusercontent.com/112770168/224375851-e2b6c6a3-244e-4161-a9b1-cdc40f5f2ee6.PNG)
