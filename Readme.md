@@ -1,4 +1,4 @@
-# MCart
+## MCart Application
 
 This project was generated with [Angular CLI](https://angular.io/cli) version 13.1.4.
 
@@ -9,8 +9,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-![image](https://user-images.githubusercontent.com/112770168/224372698-5c8a4614-3c26-45ec-933d-113c3fc79109.png)
-
+![one](https://user-images.githubusercontent.com/112770168/224374459-386e4725-11a6-4143-bd73-525197cfb15f.PNG)
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
@@ -27,11 +26,11 @@ Run `ng serve --open` to execute the app via a platform of your choice. To use t
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 ## Application on WebBrowser
-![third](https://user-images.githubusercontent.com/112770168/224373658-f452d331-25a8-4c68-b620-cad16b4e3729.PNG)
+![ANGULAR](https://user-images.githubusercontent.com/112770168/224373972-254fa755-513a-427a-a9c7-209cef3a2be8.PNG)
 ## login page
-![image](https://user-images.githubusercontent.com/112770168/224371762-0d68db4f-0f9a-4e51-8e93-399b740ce9db.png)
+![second](https://user-images.githubusercontent.com/112770168/224374098-40177ae6-b45a-4ac2-8131-091a278439aa.PNG)
 ## Homepage 
-![image](https://user-images.githubusercontent.com/112770168/224372228-55c850b5-4ff9-418c-b685-9a86b8033d6d.png)
+![third](https://user-images.githubusercontent.com/112770168/224373658-f452d331-25a8-4c68-b620-cad16b4e3729.PNG)
 ## Products appeared on the Application
 ![image](https://user-images.githubusercontent.com/112770168/224372559-d26a8570-bee3-4cbb-b2a4-3e8bf68e0896.png)
 
