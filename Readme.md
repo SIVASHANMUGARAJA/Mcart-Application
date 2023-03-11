@@ -13,7 +13,7 @@ Run `ng serve` to  compile the application [Mcart execution]().
 Run `ng serve --open` to execute the app via a platform of your choice. To use this command, you need to first add a package that implements all the sources of the application.
 ## Further help
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-## Application on WebBrowser
+## Application Run on WebBrowser
 ![ANGULAR](https://user-images.githubusercontent.com/112770168/224373972-254fa755-513a-427a-a9c7-209cef3a2be8.PNG)
 ## login page
 ![second](https://user-images.githubusercontent.com/112770168/224374098-40177ae6-b45a-4ac2-8131-091a278439aa.PNG)
