@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        h1{
+    padding-left: 10px;
+    margin-top: 35px;
+    text-align: center;
+    color:white;
+}
+
+.main {
+    border-radius: 15px;
+    box-shadow: 0 0 20px
+     rgba(0, 0, 0, 0.9);
+    padding: 20px;
+    width: 400px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+.main h2 {
+    color:cyan;
+}
+
+label {
+    display: block;
+    color: black;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color:aliceblue;
+}
+
+button[type="submit"] {
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+h4 {
+    text-align: center; 
+    font-size: 19px;
+    color:white;
+}
+a{
+    text-decoration: none;
+}
+h3{
+    color:cornsilk;
+}
+    </style>
+</head>
+    <body background="{{url_for('static', filename='assets/log.jpg')}}">
+        <h1>To Discover Your Unique Personality<br>Register here !!</h1>
+        <div class="main">
+            <h2><font color ="Blue"></font></align></h2>
+            <form action="/login" method="post">
+                <label for="first"><h2>First Name <font color="red">*</font></label>
+                <input type="text" id="first" placeholder= "Firstname" name="first" required/></h2>
+ 
+                <label for="last"><h2>Last Name <font color="red">*</font></label>
+                <input type="text" id="last" placeholder= "Lastname"name="last" required/></h2>
+                
+                <label for="email"><h2>Email <font color="red">*</font></label>
+                <input type="email" id="email" placeholder= "Email"name="email" required/></h2>
+                
+                <label for="mobile"><h2>Contact <font color="red">*</font></label>
+                <input type="text" id="mobile" placeholder= "Phone no"name="mobile" maxlength="10" required/></h2>
+                
+                <label for="password"><h2>Password <font color="red">*</font></label>
+                <input type="password" placeholder="password" name="password" pattern="^(?=.*\d)(?=.*[a-zA-Z])(?=.*[^a-zA-Z0-9])\S{8,}$" title="Password must contain at least one number, one alphabet, one symbol, and be at least 8 characters long" required/></h2>
+ 
+                <label for="repassword"><h2> Re-type Password <font color="red">*</font></label>
+                <input type="password" placeholder="password" name="repassword" required/></h2>
+ 
+                <h3><input type="checkbox" value="Other" name="agree"><b>&nbsp&nbsp&nbspI agree to the Terms and Conditions</b></h3><br>
+
+                <button type="submit" onclick="alert('! Your Account Created Successfully !')"> R E G I S T E R </button>
+            </form>
+            <h4>Already registered? <a href="\login"><font color="cyan">Login</font></a></h4>
+        </div>
+        </body>

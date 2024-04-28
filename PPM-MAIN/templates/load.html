@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loading</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" 
+    crossorigin="anonymous">
+<style>
+    body{
+        padding:0;
+        background:#262626;
+    }
+    .ring{
+        position:absolute;
+        top:30%;
+        left:50%;
+        transform:translate(-50%,-50%);
+        width:300px;
+        height:300px;
+        background:transparent;
+        border:3px solid #3c3c3c;
+        border-radius:50%;
+        text-align:center;
+        line-height:300px;
+        font-family:sans-serif;
+        font-size:30px;
+        color:#fff000;
+        letter-spacing:4px;
+        text-transform:uppercase;
+        text-shadow:0 0 10px #fff000;
+        box-shadow:0 0 20px rgba(0,0,0,.5);
+    }
+    .ring:before{
+        content:'';
+        position:absolute;
+        left:-0.5px;
+        width:100%;
+        height:100%;
+        border:4px solid transparent;
+        border-top:5px solid #fff000;
+        border-right:5px solid #fff000;
+        border-radius:50%;
+        animation:animateC 1.8s linear infinite;
+    }
+    span{
+        display:block;
+        position:absolute;
+        top:calc(50% - 2px);
+        left:50%;
+        width:50%;
+        height:4px;
+        background:transparent;
+        transform-origin:left;
+        animation:animate 1.8s linear infinite;
+    }
+    span:before{
+        content:'';
+        position:absolute;
+        width:16px;
+        height:16px;
+        border-radius:50%;
+        background:#fff000;
+        top:-6px;
+        right:-8px;
+        box-shadow:0 0 20px #fff000;
+    }
+    @keyframes animateC{   
+        0%
+        {
+            transform:rotate(0deg);
+        }
+        100%
+        {
+            transform:rotate(360deg);
+        }
+    }
+    @keyframes animate{
+        0%
+            {
+                transform:rotate(45deg);
+            }
+        100%
+            {
+                transform:rotate(405deg);
+            }
+    }
+
+
+    .inner{
+        margin-top: 450px;
+    }
+    .check{
+        margin-top: -5%;
+    }
+    
+    .inner > h2 {
+        position: relative;
+        overflow: hidden;
+        text-align: center;
+        align-items: center;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        color:aqua;
+        transform: translateY(1000%);
+        animation: bouncing-text 1.1s;
+        transition-timing-function: ease-out;
+        font-size: 35px;
+
+    }
+    .check > p{
+        position:relative;
+        color:white;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        text-align: center;
+        transform: translateY(1000%);
+        font-size: 22px;
+    }
+    @keyframes bouncing-text{
+        0% 
+        {
+            transform: translateY(1000%);
+        }
+
+        100% 
+        {
+            transform: translateY(0%);
+        }
+    }
+
+</style>
+</head>
+<body><div class="container">    
+  <div class="ring">Processing...
+        <span></span>
+      </div>
+    </div>
+        <div class="inner">
+            <h2><img src=" {{url_for('static', filename='assets/image.png')}}" width="50px"> Verifying Your Personality . . .</h2>
+            
+        </div>
+        <div class="check">
+          <p style="animation: bouncing-text 16s;transition-timing-function: ease-in;  transition-delay: 18s;">
+            <img src=" {{url_for('static', filename='assets/image1.png')}}" width="40px">&nbsp&nbspChecking Openness . . .
+          </p>
+
+          <p style="animation: bouncing-text 20s;transition-timing-function: ease-in;transition-delay: 22s;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            <img src=" {{url_for('static', filename='assets/image2.png')}}" width="40px">&nbsp&nbspChecking Conscientiousness . . .
+          </p>
+
+          <p style="animation: bouncing-text 24s;transition-timing-function: ease-in;transition-delay: 26s;">&nbsp&nbsp
+            <img src=" {{url_for('static', filename='assets/image1.png')}}" width="40px">&nbsp&nbspChecking Extraversion . . .
+          </p>
+
+          <p style="animation: bouncing-text 28s;transition-timing-function: ease-in;transition-delay: 30s;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            <img src="{{url_for('static', filename='assets/image2.png')}}" width="40px">&nbsp&nbspChecking Agreeableness . . .
+          </p>
+
+          <p style="animation: bouncing-text 32s;transition-timing-function: ease-in;transition-delay: 34s;">&nbsp
+            <img src="{{url_for('static', filename='assets/image1.png')}}" width="40px">&nbspChecking Neurotism . . . 
+          </p>
+        </div>
+      </div>
+
+        <script>
+          function nextPage() {
+            // Redirect to the next page after 5 seconds (5000 milliseconds)
+            setTimeout(function() {
+                window.location.href = "\result.html"; // Replace "next_page.html" with your actual next page URL
+            }, 32000); // Adjust the duration as needed (in milliseconds)
+        }
+
+        document.addEventListener("DOMContentLoaded", function() {
+            var spinner = document.querySelector(".ring");
+            var content = document.querySelector(".inner");
+            spinner.style.display = "";
+            content.style.display = "block";
+
+            // Call the function to display the next page after the main content is shown
+            nextPage();
+        });
+        </script>
+</body>
+</html>
